@@ -12,11 +12,9 @@ import { AppService } from './app.service';
       username: `root`,
       password: `root`,
       database: `db_farmacia`,
-      entities: [Produto, Categoria],
+      entities: [],
       synchronize: true,
-    }),
-  ProdutoModule,
-  CategoriaModule,],
+    })],
   controllers: [],
   providers: [],
 })
